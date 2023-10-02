@@ -58,3 +58,46 @@ let someNumber=33
 let stringnum=String(someNumber)
 console.log(stringnum); //33
 console.log(typeof(stringnum)); //type string
+
+//************************Operations***************************************/
+
+let value=3
+let negvalue=-value
+console.log(negvalue); //-3
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2)
+console.log(2**3);
+console.log(2/3);
+console.log(2%3);
+
+
+let str1="hello"
+let str2="world"
+
+let str3= str1 + str2
+console.log(str3); //helloworld
+
+console.log ("1"+2); //12  string first so sbhi ko string treat krna h
+console.log(1+"2"); //12
+console.log("1"+2+2); //122 
+console.log(1+2+"2"); //32 ?? numeric first so treat it as number only
+
+console.log(true); //true
+console.log(+true); //1
+// console.log(true+); error
+console.log(+""); //0
+
+let num1,num2,num3
+
+num1=num2=num3=2 + 2
+console.log(num1); //4
+
+let gameCounter=100
+gameCounter++;
+console.log(gameCounter); //101
+
+++gameCounter;
+console.log(gameCounter); //102
+   
